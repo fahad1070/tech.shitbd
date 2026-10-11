@@ -1,0 +1,206 @@
+@font-face{font-family:"Noto Sans Bengali";src:url("assets/fonts/bengali.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;unicode-range:U+0951-0952,U+0964-0965,U+0980-09FE,U+200C-200D,U+25CC}
+@font-face{font-family:"Space Grotesk";src:url("assets/fonts/space-grotesk.woff2") format("woff2");font-weight:300 700;font-style:normal;font-display:swap}
+:root{color-scheme:light;--bg:#f8f9f5;--surface:#fff;--ink:#17251e;--muted:#687169;--line:#dfe4db;--lime:#d4f568;--lime-soft:#eaf1d9;--teal:#082c32;--soft:#eef1e9;--radius:12px;--font:"Space Grotesk","Noto Sans Bengali",sans-serif}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#111915;--surface:#1b251f;--ink:#eef3e8;--muted:#a1b0a3;--line:#334138;--lime-soft:#28371d;--soft:#202d23}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}button,input{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button{color:inherit}a{color:inherit;text-decoration:none}button,input{outline-offset:5px}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #769b1d;outline-offset:5px}button:disabled{cursor:default}button[hidden],[hidden]{display:none!important}img{display:block;width:100%;height:auto}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:650}::selection{background:var(--lime);color:#17251e}.container{max-width:1280px;margin:auto;padding-inline:32px}.icon-definitions{position:absolute;width:0;height:0;overflow:hidden}.icon{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.skip-link{position:fixed;left:24px;top:12px;transform:translateY(-150%);padding:12px 20px;background:var(--lime);color:#17251e;z-index:30;border-radius:6px}.skip-link:focus{transform:translateY(0)}.unstyled-button{background:none;border:0;padding:0;text-align:left;line-height:inherit;font-weight:inherit}.utility-bar{border-bottom:1px solid var(--line);font-size:11px;color:var(--muted)}.utility-inner{display:flex;justify-content:space-between;align-items:center;min-height:34px}.utility-inner>span:first-child{display:flex;align-items:center;gap:9px}.status-dot{display:inline-block;width:6px;height:6px;background:#77a339;border-radius:50%;flex-shrink:0}.utility-right{font-size:10px;letter-spacing:1px}.utility-divider{margin-inline:14px;color:#a0a799}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:94px;border-bottom:1px solid var(--line)}.brand{display:inline-flex;align-items:center;gap:10px;line-height:1}.brand-wordmark{font-family:"Space Grotesk",sans-serif;font-size:34px;letter-spacing:-2px;font-weight:700}.brand-period{color:#7b9d28}.brand-mark{display:grid;place-items:center;width:35px;height:35px;background:var(--lime);border-radius:8px;transform:rotate(-7deg)}.brand-mark>span{display:block;width:20px;height:20px;border:5px solid #17251e;border-radius:50%;position:relative}.brand-mark>span:after{content:"";position:absolute;width:7px;height:7px;background:var(--lime);right:-6px;top:-5px;border-bottom:3px solid #17251e}.desktop-nav{display:flex;align-items:center;gap:28px;margin-left:auto;margin-right:auto}.nav-link{border:0;background:none;font-size:13px;font-weight:500;color:var(--muted);padding:9px 0;white-space:nowrap;position:relative}.nav-link:hover,.nav-link.active{color:var(--ink)}.nav-link.active:after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:#88a936}.header-actions{display:flex;align-items:center;gap:14px}.icon-button{width:38px;height:38px;border:1px solid transparent;background:transparent;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}.icon-button:hover{background:var(--soft);border-color:var(--line)}.action-divider{width:1px;height:20px;background:var(--line)}.search-trigger{display:flex;align-items:center;gap:8px;border:0;background:none;font-size:13px;padding:0}.search-trigger .icon{width:18px;height:18px}kbd{font-family:"Space Grotesk",sans-serif;font-size:11px;font-weight:400;display:inline-grid;place-items:center;min-width:22px;height:23px;border:1px solid var(--line);border-radius:4px;color:var(--muted);margin-left:7px}.menu-toggle{display:none}.mobile-nav{padding:16px 24px;border-bottom:1px solid var(--line);background:var(--surface)}.mobile-nav a,.mobile-nav button{display:block;border:0;background:none;text-align:left;padding:9px;width:100%;font-size:15px}.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;padding:48px 0 39px}.eyebrow{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:1.65px;font-weight:600;line-height:1.6}.eyebrow-line{height:1px;width:26px;background:var(--ink)}.masthead h1{font-size:clamp(36px,3.7vw,53px);letter-spacing:-1.8px;line-height:1.5;margin-top:14px;font-weight:650}.masthead h1>span{color:#798970}.masthead-aside{max-width:300px;padding-bottom:8px;position:relative}.masthead-aside p{color:var(--muted);font-size:13px;line-height:1.95}.small-orbit{position:absolute;right:0;top:-37px;font-size:31px;color:#8d9d70;line-height:1}.text-link{display:inline-flex;align-items:center;gap:22px;font-size:12px;font-weight:600;margin-top:15px}.text-link .icon{width:18px}.text-link:hover{gap:30px;transition:gap .2s}.lead-layout{display:grid;grid-template-columns:minmax(0,1fr) 286px;gap:27px}.feature-story{display:grid;grid-template-columns:1fr 46%;background:var(--lime-soft);border-radius:var(--radius);overflow:hidden;min-height:420px}.feature-content{padding:26px 30px;display:flex;flex-direction:column;align-items:flex-start}.feature-kicker{display:flex;gap:8px;align-items:center;font-size:11px;font-weight:550}.feature-star{font-size:19px}.feature-category{font-size:9px;letter-spacing:1.8px;font-weight:600;color:var(--muted);margin-top:25px}.feature-story h2{margin-top:10px;font-size:clamp(27px,2.7vw,36px);letter-spacing:-1px;line-height:1.65}.feature-title{font-weight:650}.feature-title:hover{color:#4e6724}.feature-description{color:var(--muted);font-size:12px;line-height:1.95;margin-top:12px;max-width:320px}.feature-meta{display:flex;align-items:center;gap:9px;margin-top:18px;font-size:10px}.author-avatar{width:32px;height:32px;background:#17251e;color:#d4f568;display:inline-grid;place-items:center;border-radius:50%;font-family:"Space Grotesk",sans-serif;font-size:14px;font-weight:500;flex-shrink:0}.feature-meta strong{font-size:11px;font-weight:600;display:block}.feature-meta>span:last-child>span{display:block;color:var(--muted);font-size:9px;margin-top:1px}.feature-read{display:flex;align-items:center;justify-content:space-between;gap:26px;margin-top:auto;padding-top:20px;min-width:180px;border:0;background:none;font-size:12px;font-weight:600}.feature-read>span{display:grid;place-items:center;background:var(--ink);color:var(--bg);width:35px;height:35px;border-radius:50%;transition:transform .2s}.feature-read:hover>span{transform:rotate(45deg)}.feature-art-button{border:0;padding:0;position:relative;overflow:hidden;background:var(--teal);min-width:0}.feature-art{width:100%;height:100%;object-fit:cover;transition:transform .6s}.feature-art-button:hover .feature-art{transform:scale(1.045)}.art-caption{position:absolute;left:0;right:0;bottom:20px;color:#cbdba8;text-align:center;font-size:7px;letter-spacing:1.2px;pointer-events:none}.trending-panel{padding:6px 0 0;display:flex;flex-direction:column}.section-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}.section-heading h2{font-size:24px;letter-spacing:-.6px}.section-heading.compact h2{font-size:18px;letter-spacing:-.3px}.live-pill{display:flex;align-items:center;gap:5px;color:var(--muted);font-family:"Space Grotesk",sans-serif;font-size:8px;letter-spacing:.6px}.live-pill .status-dot{width:5px;height:5px}.trending-list{list-style:none;padding:0;margin:12px 0 0}.trending-list li{display:flex;gap:18px;padding:20px 0;border-bottom:1px solid var(--line)}.trend-number{font-family:"Space Grotesk",sans-serif;font-size:25px;color:#aeb7a6;letter-spacing:-1.6px;line-height:1.1;margin-top:8px}.topic-label{color:var(--muted);font-size:9px}.trending-list h3{font-size:16px;font-weight:550;line-height:1.8;margin:4px 0 9px;letter-spacing:-.2px}.trending-list h3 button:hover{color:#779336}.trend-time{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:9px}.trend-time .icon{width:14px;height:14px}.trending-more{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:17px;font-size:11px;font-weight:550}.trending-more .icon{width:17px;height:17px}.latest-section{padding-top:55px;scroll-margin-top:28px}.heading-with-mark{display:flex;align-items:center;gap:10px}.section-mark{width:10px;height:23px;background:var(--lime);border-radius:2px}.section-note{font-size:11px;color:var(--muted)}.filter-toolbar{display:flex;align-items:center;gap:20px;justify-content:space-between;padding:20px 0 26px}.category-filters{display:flex;gap:6px;flex-wrap:wrap}.filter-button{border:1px solid transparent;background:transparent;border-radius:5px;color:var(--muted);padding:8px 14px;font-size:11px;white-space:nowrap;transition:background .2s,color .2s}.filter-button:hover{background:var(--soft);color:var(--ink)}.filter-button.is-active{background:var(--ink);color:var(--bg)}.filter-button span{margin-left:8px;font-family:"Space Grotesk",sans-serif}.results-label{font-size:10px;color:var(--muted);white-space:nowrap}.articles-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 25px}.article-card{min-width:0}.article-image-button{display:block;width:100%;height:214px;position:relative;border:0;padding:0;border-radius:9px;overflow:hidden;background:var(--soft)}.article-image{width:100%;height:100%;object-fit:cover;transition:transform .5s}.article-image-button:hover .article-image{transform:scale(1.05)}.image-category{position:absolute;left:14px;top:14px;font-size:9px;padding:5px 10px;background:var(--surface);color:var(--ink);border-radius:3px;box-shadow:0 1px 4px #0001}.article-card-body{padding:17px 1px 0}.article-meta{display:flex;align-items:center;gap:9px;font-size:9px;color:var(--muted)}.article-meta span:first-child{color:#748347}.article-meta time{color:var(--muted)}.article-meta .meta-separator{width:3px;height:3px;border-radius:50%;background:#a5aea0}.article-card h3{margin-top:9px;font-size:20px;line-height:1.7;letter-spacing:-.35px;font-weight:600}.article-title{border:0;background:none;font-weight:600;text-align:left;padding:0;font-size:inherit;line-height:inherit;letter-spacing:inherit}.article-title:hover{color:#7c9839}.article-excerpt{font-size:12px;line-height:1.95;color:var(--muted);margin-top:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.article-footer{display:flex;align-items:center;gap:8px;border-top:1px solid var(--line);margin-top:17px;padding-top:13px;font-size:10px}.article-footer .author-avatar{width:25px;height:25px;font-size:11px}.article-footer .author-name{font-size:10px;font-weight:500}.article-footer .read-time{margin-left:auto;font-size:9px;color:var(--muted)}.article-footer>span:last-child{margin-left:auto;color:var(--muted);font-size:9px}.load-more-wrap{display:flex;justify-content:center;padding:40px 0 0}.load-more{display:inline-flex;align-items:center;gap:33px;padding:11px 21px;border:1px solid var(--line);border-radius:5px;background:transparent;font-size:12px;font-weight:500;transition:background .2s}.load-more:hover{background:var(--lime);color:#17251e;border-color:var(--lime)}.load-more .icon{width:18px}.empty-state{grid-column:1/-1;text-align:center;padding:45px 20px;color:var(--muted);background:var(--soft);border-radius:8px}.about-banner{display:grid;grid-template-columns:220px 1fr 170px;align-items:center;gap:32px;min-height:265px;padding:32px 44px;background:#13291f;color:#f6f9ed;border-radius:var(--radius);margin-top:62px;overflow:hidden;position:relative;scroll-margin-top:24px}.about-copy{max-width:510px}.about-copy .eyebrow{color:#bad197;font-size:8px;letter-spacing:1.6px}.about-copy h2{font-size:32px;line-height:1.65;letter-spacing:-.9px;margin-top:10px}.about-copy>p:last-child{color:#b2c3b5;font-size:11px;line-height:2;margin-top:11px}.about-art{position:relative;display:grid;place-items:center;width:205px;height:195px}.about-orbit{position:absolute;width:192px;height:85px;border:1px solid #789954;border-radius:50%;transform:rotate(-35deg)}.orbit-two{transform:rotate(35deg);border-color:#476b3e}.about-spark{font-size:116px;color:var(--lime);line-height:1;transform:rotate(-12deg)}.orbit-dot{position:absolute;left:17px;top:119px;width:15px;height:15px;background:var(--lime);border-radius:50%;box-shadow:0 0 20px #d4f56845}.about-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--lime);color:#17251e;font-size:14px;font-weight:600;line-height:1.85;padding:18px 20px;border-radius:5px}.about-cta:hover{background:#e3ff92}.about-cta .icon{width:25px;height:25px}.demo-note{font-size:10px;color:var(--muted);text-align:center;margin:19px 0 44px}.demo-note>span{font-size:8px;padding:3px 6px;background:var(--soft);border-radius:3px;margin-right:7px}.site-footer{border-top:1px solid var(--line);padding-top:33px}.footer-main{display:flex;align-items:center;justify-content:space-between;gap:32px;padding-bottom:32px}.footer-brand .brand-wordmark{font-size:27px;letter-spacing:-1.5px}.footer-brand .brand-mark{width:28px;height:28px;border-radius:6px}.footer-brand .brand-mark>span{width:17px;height:17px;border-width:4px}.footer-brand .brand-mark>span:after{width:6px;height:6px;right:-5px;top:-4px}.footer-main>div>p{font-size:10px;color:var(--muted);margin-top:10px}.footer-nav{display:flex;gap:26px;font-size:11px;color:var(--muted)}.footer-nav button{padding:0;border:0;background:none;font-size:inherit}.footer-nav a:hover,.footer-nav button:hover{color:var(--ink)}.back-to-top{display:flex;align-items:center;gap:12px;font-size:10px}.back-to-top .icon{width:16px;height:16px}.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0;border-top:1px solid var(--line);font-size:9px;color:var(--muted)}.footer-domain{font-family:"Space Grotesk",sans-serif;font-size:9px;letter-spacing:.6px}.footer-dot{font-size:6px;margin-inline:10px;color:#9bb152}
+.article-read-time{font-size:9px;color:var(--muted)}.search-result-copy{display:flex;flex-direction:column;gap:4px;min-width:0}.search-result-copy strong{font-size:13px;font-weight:600;line-height:1.75}.search-result-category{font-size:9px;color:var(--muted)}.search-result-excerpt{font-size:10px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}.search-results-label{font-size:10px;color:var(--muted);padding:4px 8px 10px}.search-result>svg{width:18px;height:18px;flex-shrink:0;margin-left:auto}.article-reading-category{border:0}.article-action-status{align-self:center;font-size:10px;color:var(--muted)}.article-share-link{display:block;width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:5px;background:var(--surface);color:var(--ink);font-family:"Space Grotesk",sans-serif;font-size:11px;margin-top:12px}.article-reading-actions svg{width:17px;height:17px}.article-related button{display:flex!important;align-items:center;justify-content:space-between;gap:12px}.article-related button>svg{width:18px;height:18px;flex-shrink:0}.article-lead{font-size:16px}.article-reading-category:hover{background:#e2fc91}
+/* Reading and search */
+dialog{color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:0;box-shadow:0 25px 90px #0004;max-width:calc(100% - 32px);max-height:calc(100dvh - 48px)}dialog::backdrop{background:#091d17a8;backdrop-filter:blur(5px)}body.dialog-open{overflow:hidden}.search-dialog{width:640px;margin:9vh auto auto;padding:30px}.search-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:16px}.search-dialog-header .eyebrow{color:var(--muted);font-size:9px;letter-spacing:1.2px}.search-dialog-header h2{font-size:25px;margin-top:7px}.search-field{display:flex;align-items:center;gap:12px;padding:15px;border:1px solid var(--line);border-radius:7px;background:var(--surface);margin-top:24px}.search-field input{width:100%;min-width:0;padding:0;border:0;background:none;color:var(--ink);font-size:13px;outline:none}.search-field:focus-within{border-color:#9cbb52;box-shadow:0 0 0 2px #bcd88d33}.search-field kbd{font-size:8px;padding-inline:5px}.search-results{margin-top:15px;max-height:55vh;overflow:auto}.search-result{display:flex;align-items:center;gap:14px;text-align:left;padding:15px 8px;border:0;border-bottom:1px solid var(--line);background:none;width:100%;border-radius:4px}.search-result:hover{background:var(--soft)}.search-result img{width:62px;height:50px;border-radius:4px;object-fit:cover}.search-result h3,.search-result-title{font-size:14px;font-weight:600}.search-result p,.search-result-meta{font-size:10px;color:var(--muted);margin-top:5px}.search-result .icon{margin-left:auto;width:16px;height:16px}.search-empty,.search-hint{padding:25px 10px;text-align:center;color:var(--muted);font-size:12px}.article-dialog{width:850px;scrollbar-width:thin}.article-dialog-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 25px;position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line)}.reading-brand{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:21px;letter-spacing:-1px}.reading-brand span{color:#8dab3d}.reading-top-label{font-size:10px;color:var(--muted)}.reading-progress{height:3px;position:sticky;top:0;background:#a0c546;width:0;z-index:3;transition:width .15s}.article-reading{padding:35px 55px 45px}.article-reading-category{display:inline-flex;padding:4px 10px;background:var(--lime);color:#17251e;font-size:10px;font-weight:500;border-radius:4px}.article-reading-title{font-size:34px;line-height:1.65;letter-spacing:-1px;margin:16px 0 10px}.article-reading-summary{font-size:14px;color:var(--muted);line-height:1.9}.article-reading-meta{display:flex;align-items:center;gap:12px;font-size:11px;color:var(--muted);margin-top:20px}.article-reading-meta .author-avatar{width:30px;height:30px;font-size:13px}.article-reading-cover{width:100%;height:310px;object-fit:cover;border-radius:8px;margin:25px 0}.article-reading-body{font-size:15px;line-height:2.1}.article-reading-body p{margin:15px 0}.article-reading-body h2{font-size:22px;line-height:1.75;margin:28px 0 11px}.article-reading-body h3{font-size:18px;margin:22px 0 10px}.article-reading-body ul,.article-reading-body ol{padding-left:24px;margin:14px 0}.article-reading-body li{margin:8px 0}.article-reading-body blockquote{border-left:3px solid #a0bd50;margin:25px 0;background:var(--soft);padding:18px 22px;border-radius:0 6px 6px 0}.article-reading-notice{font-size:11px;color:var(--muted);border-top:1px solid var(--line);margin-top:28px;padding-top:15px}.article-reading-actions{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}.article-reading-actions button,.bookmark-button,.share-button{border:1px solid var(--line);background:var(--surface);padding:9px 16px;border-radius:5px;font-size:12px;display:inline-flex;align-items:center;gap:8px}.article-reading-actions button:hover{background:var(--soft)}.article-reading-actions button[aria-pressed="true"]{background:var(--lime);color:#17251e;border-color:var(--lime)}.article-related{margin-top:35px;padding-top:22px;border-top:1px solid var(--line)}.article-related h2{font-size:18px;margin-bottom:12px}.article-related button{display:block;width:100%;text-align:left;border:0;background:var(--soft);padding:12px 16px;font-size:13px;border-radius:5px;margin-top:8px}.article-related button:hover{background:var(--lime);color:#17251e}.article-related .icon{vertical-align:middle;width:15px;height:15px;margin-left:10px}.share-status{font-size:11px;color:var(--muted);margin-top:10px}
+@media(min-width:1500px){.container{max-width:1340px}.feature-story{min-height:450px}.feature-story h2{font-size:39px}.feature-content{padding:30px 35px}.article-image-button{height:240px}}
+@media(max-width:1100px){.container{padding-inline:26px}.desktop-nav{gap:17px}.nav-link{font-size:12px}.brand-wordmark{font-size:30px}.header-inner{gap:15px}.header-actions{gap:8px}.lead-layout{grid-template-columns:minmax(0,1fr) 255px;gap:22px}.feature-content{padding:23px}.feature-story{grid-template-columns:1fr 42%;min-height:425px}.feature-story h2{font-size:29px}.feature-description{font-size:11px}.art-caption{font-size:6px}.masthead h1{font-size:44px}.masthead-aside{max-width:270px}.trending-list li{gap:13px}.trending-list h3{font-size:15px}.articles-grid{gap:30px 21px}.article-image-button{height:185px}.article-card h3{font-size:18px}.category-filters{gap:3px}.filter-button{padding:8px 10px}.about-banner{grid-template-columns:180px 1fr 155px;padding:30px;gap:24px}.about-art{width:165px;transform:scale(.88)}.about-cta{padding:15px;font-size:13px}.footer-nav{gap:18px}}
+@media(max-width:900px){.desktop-nav{gap:15px}.desktop-nav .nav-link:last-child{display:none}.search-trigger kbd{display:none}.lead-layout{grid-template-columns:1fr}.feature-story{grid-template-columns:1fr 46%;min-height:400px}.feature-content{padding:28px 34px}.feature-story h2{font-size:36px}.feature-description{font-size:12px}.trending-panel{margin-top:3px;padding-top:10px}.trending-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.trending-list li{padding:12px 0 17px}.trending-list h3{font-size:14px}.trend-number{font-size:22px}.trending-more{justify-content:flex-end;gap:15px;font-size:10px;padding-top:13px}.masthead h1{font-size:40px}.masthead-aside p{font-size:11px}.masthead-aside{max-width:245px}.small-orbit{font-size:27px;top:-30px}.latest-section{padding-top:35px}.articles-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px}.article-image-button{height:220px}.article-card h3{font-size:20px}.filter-toolbar{gap:15px;align-items:flex-start}.results-label{padding-top:10px}.category-filters{gap:6px;max-width:610px}.about-banner{grid-template-columns:140px 1fr;gap:23px}.about-art{width:130px;transform:scale(.75)}.about-cta{grid-column:2;justify-self:start;font-size:11px;gap:35px;padding:10px 17px}.about-cta br{display:none}.about-copy h2{font-size:29px}.about-copy h2 br{display:none}.about-art{grid-row:1/3}.about-banner{padding:30px;min-height:250px}.footer-main{gap:22px}.footer-nav{gap:15px}.footer-domain{font-size:8px}}
+@media(max-width:680px){.container{padding-inline:20px}.utility-inner{min-height:30px;font-size:9px}.utility-right{font-size:8px;letter-spacing:.4px}.utility-right .utility-divider{margin-inline:7px}.header-inner{min-height:77px}.desktop-nav{display:none}.header-actions{gap:8px}.brand-wordmark{font-size:30px}.brand-mark{width:31px;height:31px;border-radius:7px}.brand-mark>span{width:18px;height:18px;border-width:4px}.brand-mark>span:after{right:-5px;top:-4px}.theme-button{width:33px;height:33px}.action-divider{display:none}.search-trigger>span{display:none}.search-trigger{padding:9px 7px}.menu-toggle{display:inline-flex;width:31px;height:33px}.masthead{padding:31px 0 25px;display:block}.eyebrow{font-size:8px;letter-spacing:1.2px}.eyebrow-line{width:18px}.masthead h1{font-size:clamp(32px,7.4vw,42px);letter-spacing:-1px;line-height:1.55;margin-top:10px}.masthead-aside{max-width:100%;padding-bottom:0;margin-top:15px;display:flex;align-items:center;justify-content:space-between;gap:20px}.masthead-aside p{font-size:10px;line-height:1.85}.masthead-aside p br:first-child{display:none}.masthead-aside p br:last-child{display:none}.masthead-aside .small-orbit{display:none}.masthead-aside .text-link{font-size:10px;white-space:nowrap;gap:8px;margin:0;flex-shrink:0}.masthead-aside .text-link .icon{width:15px}.feature-story{grid-template-columns:1fr 40%;min-height:345px;border-radius:10px}.feature-content{padding:20px 22px}.feature-kicker{font-size:9px;gap:5px}.feature-star{font-size:15px}.feature-category{font-size:7px;letter-spacing:1px;margin-top:20px}.feature-story h2{font-size:27px;line-height:1.65;letter-spacing:-.6px;margin-top:10px}.feature-title br{display:none}.feature-description{font-size:10px;line-height:1.95;margin-top:8px}.feature-meta{margin-top:14px;gap:7px}.feature-meta .author-avatar{width:26px;height:26px;font-size:11px}.feature-meta strong{font-size:9px}.feature-meta>span:last-child>span{font-size:8px}.feature-read{font-size:10px;gap:12px;min-width:0;width:100%;padding-top:17px}.feature-read>span{width:30px;height:30px}.feature-read .icon{width:17px;height:17px}.art-caption{writing-mode:vertical-rl;left:auto;right:11px;bottom:18px;font-size:6px;letter-spacing:1.2px}.trending-panel{padding-top:7px}.section-heading.compact h2{font-size:16px}.trending-list{gap:15px;margin-top:10px}.trending-list li{gap:8px;padding:8px 0 13px}.trend-number{font-size:17px;letter-spacing:-.8px;margin-top:6px}.topic-label{font-size:8px}.trending-list h3{font-size:12px;line-height:1.85;margin:4px 0 7px}.trend-time{font-size:8px;gap:3px}.trend-time .icon{width:12px;height:12px}.trending-more{font-size:9px;padding-top:10px}.latest-section{padding-top:31px}.section-heading h2{font-size:22px}.section-note{font-size:9px}.section-mark{height:20px;width:8px}.filter-toolbar{display:block;padding:16px 0 21px}.category-filters{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:4px;gap:5px}.category-filters::-webkit-scrollbar{display:none}.filter-button{font-size:10px;padding:8px 12px}.results-label{display:block;font-size:9px;text-align:right;padding-top:10px}.articles-grid{gap:28px 17px}.article-image-button{height:165px;border-radius:7px}.image-category{font-size:8px;left:9px;top:9px;padding:4px 8px}.article-card-body{padding-top:13px}.article-meta{font-size:8px;gap:6px}.article-card h3{font-size:16px;line-height:1.8;margin-top:7px;letter-spacing:-.2px}.article-excerpt{font-size:10px;line-height:1.95;margin-top:6px}.article-footer{margin-top:13px;padding-top:11px;gap:6px}.article-footer .author-avatar{width:22px;height:22px;font-size:9px}.article-footer .author-name{font-size:9px}.article-footer>span:last-child,.article-footer .read-time{font-size:8px}.load-more-wrap{padding-top:28px}.load-more{font-size:11px;padding:10px 19px;gap:25px}.about-banner{margin-top:43px;padding:25px;grid-template-columns:75px 1fr;gap:18px;min-height:230px}.about-art{transform:scale(.52);width:75px}.about-copy .eyebrow{font-size:6px;letter-spacing:.8px;line-height:1.8}.about-copy h2{font-size:25px;line-height:1.6;margin-top:9px;letter-spacing:-.6px}.about-copy>p:last-child{font-size:10px;margin-top:8px}.about-cta{font-size:10px;gap:20px;padding:9px 13px}.about-cta .icon{width:18px;height:18px}.demo-note{font-size:8px;line-height:1.9;padding:0 8px;margin:15px 0 30px}.demo-note>span{font-size:7px}.site-footer{padding-top:26px}.footer-main{flex-wrap:wrap;padding-bottom:24px;gap:25px}.footer-brand .brand-wordmark{font-size:25px}.footer-nav{gap:17px;font-size:10px}.back-to-top{margin-left:auto;font-size:9px}.footer-bottom{font-size:8px;line-height:1.8;gap:12px;align-items:flex-start}.footer-domain{font-size:7px;max-width:180px;text-align:right;line-height:1.9}.footer-dot{margin-inline:5px}.search-dialog{padding:20px;margin:7vh auto auto;max-width:calc(100% - 24px)}.search-dialog-header h2{font-size:22px}.search-dialog-header .eyebrow{font-size:7px}.search-field{padding:12px;gap:9px;margin-top:20px}.search-field input{font-size:11px}.search-field kbd{display:none}.search-result h3,.search-result-title{font-size:12px}.search-result img{width:52px;height:45px}.article-dialog{max-width:calc(100% - 16px);max-height:calc(100dvh - 20px);border-radius:12px}.article-dialog-top{padding:10px 18px}.reading-top-label{font-size:8px}.article-reading{padding:24px 24px 30px}.article-reading-title{font-size:27px;letter-spacing:-.7px;line-height:1.7}.article-reading-summary{font-size:12px}.article-reading-meta{font-size:9px;flex-wrap:wrap;gap:8px}.article-reading-cover{height:210px;margin:20px 0}.article-reading-body{font-size:13px;line-height:2.1}.article-reading-body h2{font-size:20px}.article-reading-body h3{font-size:17px}.article-reading-body blockquote{padding:15px 18px}.article-reading-actions button{font-size:11px;padding:8px 12px}}
+@media(max-width:420px){.container{padding-inline:16px}.utility-right{font-size:7px;letter-spacing:0}.utility-inner{font-size:8px}.header-actions{gap:4px}.brand-wordmark{font-size:28px}.brand-mark{width:29px;height:29px}.masthead h1{font-size:32px}.masthead-aside{gap:14px}.masthead-aside p{font-size:9px}.masthead-aside .text-link{font-size:9px}.feature-story{grid-template-columns:1fr 36%;min-height:340px}.feature-content{padding:18px}.feature-story h2{font-size:25px}.feature-description{font-size:9px}.feature-meta>span:last-child>span{font-size:7px}.trending-list{grid-template-columns:1fr;gap:0}.trending-list li{gap:17px;padding:11px 0}.trending-list li>div{width:100%}.trend-number{font-size:22px}.trending-list h3{font-size:13px;margin:1px 0 4px}.trend-time{font-size:8px}.section-note{font-size:8px}.articles-grid{grid-template-columns:1fr;gap:27px}.article-image-button{height:220px}.article-card h3{font-size:21px}.article-excerpt{font-size:12px}.article-meta{font-size:9px}.article-footer .author-name{font-size:10px}.article-footer>span:last-child,.article-footer .read-time{font-size:9px}.article-card-body{padding-top:15px}.about-banner{grid-template-columns:1fr;padding:25px;gap:15px}.about-art{position:absolute;right:-32px;top:0;opacity:.18;transform:scale(.9);width:180px;pointer-events:none}.about-copy{z-index:1}.about-copy h2{font-size:29px}.about-copy>p:last-child{font-size:11px}.about-copy .eyebrow{font-size:7px}.about-cta{grid-column:1;z-index:1;font-size:11px}.footer-main{gap:22px}.footer-nav{order:3;width:100%;gap:23px}.back-to-top{font-size:9px}.footer-bottom{flex-direction:column;gap:7px}.footer-domain{max-width:none;text-align:left}.demo-note{font-size:8px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Font redistribution licenses for bundled Noto Sans Bengali and Space Grotesk.
+Copyright 2025 The Noto Project Authors (https://github.com/notofonts/bengali)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+
+Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+*/

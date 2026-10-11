@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="bn" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9f5">
+  <meta name="description" content="OnlyTech — আপনার ভাষায় প্রযুক্তির গল্প। কৃত্রিম বুদ্ধিমত্তা, গ্যাজেট, ডেভেলপমেন্ট ও ডিজিটাল জীবনের বাংলা টেক ব্লগ।">
+  <meta property="og:title" content="OnlyTech — প্রযুক্তির নতুন দুনিয়া, আপনার ভাষায়">
+  <meta property="og:description" content="প্রযুক্তিকে জানুন, বুঝুন, নিজের মতো করে ব্যবহার করুন। বাংলা টেক ব্লগ OnlyTech।">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tech.shitbd.com/">
+  <meta property="og:image" content="https://tech.shitbd.com/assets/editorial.svg">
+  <link rel="canonical" href="https://tech.shitbd.com/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bengali.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>OnlyTech — আপনার ভাষায় প্রযুক্তির গল্প</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">মূল লেখায় যান</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.2 14.3A8.5 8.5 0 0 1 9.7 3.8a8.5 8.5 0 1 0 10.5 10.5Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </svg>
+  <div class="utility-bar">
+    <div class="container utility-inner"><span><i class="status-dot"></i>প্রযুক্তির সাথে, এক ধাপ এগিয়ে।</span><span class="utility-right">INDEPENDENT TECH JOURNAL <span class="utility-divider">/</span> বাংলা</span></div>
+  </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="OnlyTech হোম"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-wordmark">OnlyTech<span class="brand-period">.</span></span></a>
+      <nav class="desktop-nav" aria-label="প্রধান মেনু">
+        <a class="nav-link active" href="#latest">সর্বশেষ</a>
+        <button class="nav-link" data-filter="ai" type="button">এআই</button>
+        <button class="nav-link" data-filter="gadgets" type="button">গ্যাজেট</button>
+        <button class="nav-link" data-filter="development" type="button">ডেভেলপমেন্ট</button>
+        <a class="nav-link" href="#about">আমাদের কথা</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-button" id="theme-toggle" type="button" aria-label="ডার্ক মোড চালু করুন" title="রঙের মোড বদলান"><svg class="icon"><use href="#i-moon"/></svg></button>
+        <span class="action-divider"></span>
+        <button class="search-trigger" data-open-search type="button"><svg class="icon"><use href="#i-search"/></svg><span>খুঁজুন</span><kbd>/</kbd></button>
+        <button class="icon-button menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="মেনু খুলুন"><svg class="icon"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="মোবাইল মেনু" hidden>
+      <a href="#latest">সর্বশেষ লেখা</a><button data-filter="ai" type="button">কৃত্রিম বুদ্ধিমত্তা</button><button data-filter="gadgets" type="button">গ্যাজেট</button><button data-filter="development" type="button">ডেভেলপমেন্ট</button><a href="#about">আমাদের কথা</a>
+    </nav>
+  </header>
+  <main id="main" class="container">
+    <section class="masthead" aria-labelledby="masthead-title">
+      <div><p class="eyebrow"><span class="eyebrow-line"></span> THE ONLY TECH YOU NEED</p><h1 id="masthead-title">প্রযুক্তির নতুন দুনিয়া,<br><span>আপনার ভাষায়।</span></h1></div>
+      <div class="masthead-aside"><span class="small-orbit" aria-hidden="true">✳</span><p>জটিল প্রযুক্তি, সহজ গল্প।<br>আজকের ভাবনা থেকে আগামীর সম্ভাবনা—<br>টেক নিয়ে জানুন, বুঝুন, এগিয়ে থাকুন।</p><a href="#latest" class="text-link">লেখাগুলো পড়ুন <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+    </section>
+    <section class="lead-layout" aria-label="নির্বাচিত লেখা">
+      <article class="feature-story">
+        <div class="feature-content">
+          <p class="feature-kicker"><span class="feature-star">✦</span> সম্পাদকের পছন্দ</p>
+          <span class="feature-category">ARTIFICIAL INTELLIGENCE</span>
+          <h2><button class="unstyled-button feature-title" data-article="ai-everyday" type="button">এআই এখন আপনার<br>প্রতিদিনের সঙ্গী</button></h2>
+          <p class="feature-description">কাজের ডেস্ক থেকে সৃজনশীল ভাবনা—কৃত্রিম বুদ্ধিমত্তা কীভাবে বদলে দিচ্ছে আমাদের প্রতিদিন?</p>
+          <div class="feature-meta"><span class="author-avatar">F</span><span><strong>ফাহাদ</strong><span>৯ অক্টোবর, ২০২৬ · ৬ মিনিট</span></span></div>
+          <button class="feature-read" data-article="ai-everyday" type="button">পুরো লেখাটি পড়ুন <span><svg class="icon"><use href="#i-up-right"/></svg></span></button>
+        </div>
+        <button class="feature-art-button" data-article="ai-everyday" type="button" aria-label="এআই এখন আপনার প্রতিদিনের সঙ্গী পড়ুন"><img class="feature-art" src="assets/editorial.svg" alt="লাইম রঙের সার্কিটের মাঝে ভাসমান এআই চিপ" width="1000" height="720" fetchpriority="high"><span class="art-caption">HUMAN IDEAS. MACHINE POSSIBILITIES.</span></button>
+      </article>
+      <aside class="trending-panel" aria-labelledby="trending-title">
+        <div class="section-heading compact"><h2 id="trending-title">এখন আলোচনায়</h2><span class="live-pill"><i class="status-dot"></i> TRENDING</span></div>
+        <ol class="trending-list">
+          <li><span class="trend-number">01</span><div><span class="topic-label">গ্যাজেট</span><h3><button data-article="nothing-phone-3" class="unstyled-button" type="button">Nothing Phone: ডিজাইনে নতুন ভাবনা</button></h3><span class="trend-time">৫ মিনিটের পাঠ <svg class="icon"><use href="#i-up-right"/></svg></span></div></li>
+          <li><span class="trend-number">02</span><div><span class="topic-label">ডেভেলপমেন্ট</span><h3><button data-article="web-development-2026" class="unstyled-button" type="button">ওয়েব ডেভেলপমেন্ট শেখার শুরুটা কোথায়?</button></h3><span class="trend-time">৭ মিনিটের পাঠ <svg class="icon"><use href="#i-up-right"/></svg></span></div></li>
+          <li><span class="trend-number">03</span><div><span class="topic-label">ডিজিটাল নিরাপত্তা</span><h3><button data-article="digital-privacy" class="unstyled-button" type="button">আপনার অনলাইন পরিচয় কতটা নিরাপদ?</button></h3><span class="trend-time">৪ মিনিটের পাঠ <svg class="icon"><use href="#i-up-right"/></svg></span></div></li>
+        </ol>
+        <a href="#latest" class="trending-more">আরও গল্প আবিষ্কার করুন <svg class="icon"><use href="#i-arrow"/></svg></a>
+      </aside>
+    </section>
+    <section class="latest-section" id="latest" aria-labelledby="latest-title">
+      <div class="section-heading latest-heading"><div class="heading-with-mark"><span class="section-mark" aria-hidden="true"></span><h2 id="latest-title">সর্বশেষ লেখা</h2></div><span class="section-note">নতুন ভাবনা, নতুন দৃষ্টিভঙ্গি</span></div>
+      <div class="filter-toolbar"><div class="category-filters" role="group" aria-label="লেখার বিভাগ"><button class="filter-button is-active" data-filter="all" aria-pressed="true" type="button">সব লেখা <span>↗</span></button><button class="filter-button" data-filter="ai" aria-pressed="false" type="button">কৃত্রিম বুদ্ধিমত্তা</button><button class="filter-button" data-filter="gadgets" aria-pressed="false" type="button">গ্যাজেট</button><button class="filter-button" data-filter="development" aria-pressed="false" type="button">ডেভেলপমেন্ট</button><button class="filter-button" data-filter="security" aria-pressed="false" type="button">নিরাপত্তা</button><button class="filter-button" data-filter="science" aria-pressed="false" type="button">বিজ্ঞান</button></div><span id="results-label" class="results-label" role="status" aria-live="polite"></span></div>
+      <div id="articles-grid" class="articles-grid"></div>
+      <noscript><p class="empty-state">সব নমুনা লেখা, সার্চ ও বিভাগ দেখতে ব্রাউজারে JavaScript চালু করুন।</p></noscript>
+      <div class="load-more-wrap"><button class="load-more" id="load-more" type="button">আরও লেখা দেখুন <svg class="icon"><use href="#i-arrow"/></svg></button></div>
+    </section>
+    <section class="about-banner" id="about" aria-labelledby="about-title">
+      <div class="about-art" aria-hidden="true"><span class="about-orbit orbit-one"></span><span class="about-orbit orbit-two"></span><span class="about-spark">✳</span><span class="orbit-dot"></span></div>
+      <div class="about-copy"><p class="eyebrow">CURIOUS MINDS. CLEAR PERSPECTIVES.</p><h2 id="about-title">প্রযুক্তি সবার।<br>গল্পগুলোও তাই।</h2><p>OnlyTech প্রযুক্তিকে দেখার একটি সহজ, কৌতূহলী দৃষ্টিভঙ্গি। নতুন টুল, ভালো আইডিয়া আর ভবিষ্যতের সম্ভাবনা—সবকিছু নিয়ে কথা হোক আমাদের নিজের ভাষায়।</p></div>
+      <a class="about-cta" href="#latest">কৌতূহল থাকুক,<br>পড়া চলুক। <svg class="icon"><use href="#i-up-right"/></svg></a>
+    </section>
+    <p class="demo-note"><span>থিম প্রিভিউ</span> এখানে প্রদর্শিত লেখাগুলো ডিজাইন দেখানোর জন্য নমুনা হিসেবে রাখা হয়েছে।</p>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-main"><div><a class="brand footer-brand" href="./" aria-label="OnlyTech হোম"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-wordmark">OnlyTech<span class="brand-period">.</span></span></a><p>আপনার ভাষায় প্রযুক্তির গল্প।</p></div><nav class="footer-nav" aria-label="ফুটার মেনু"><a href="#latest">সব লেখা</a><button data-filter="ai" type="button">এআই</button><button data-filter="gadgets" type="button">গ্যাজেট</button><a href="#about">আমাদের কথা</a></nav><a class="back-to-top" href="#main">ওপরে ফিরুন <svg class="icon"><use href="#i-up-right"/></svg></a></div><div class="footer-bottom"><span>© ২০২৬ OnlyTech. সমস্ত অধিকার সংরক্ষিত।</span><span class="footer-domain">tech.shitbd.com <span class="footer-dot">●</span> BUILT FOR THE CURIOUS</span></div></div></footer>
+  <dialog class="search-dialog" id="search-dialog" aria-labelledby="search-title"><div class="search-dialog-header"><div><p class="eyebrow">FIND YOUR NEXT READ</p><h2 id="search-title">কী নিয়ে পড়তে চান?</h2></div><button class="icon-button" data-close-dialog type="button" aria-label="সার্চ বন্ধ করুন"><svg class="icon"><use href="#i-close"/></svg></button></div><label class="search-field"><svg class="icon"><use href="#i-search"/></svg><input id="search-input" type="search" placeholder="এআই, গ্যাজেট বা লেখার নাম দিয়ে খুঁজুন…" autocomplete="off" aria-label="লেখা খুঁজুন"><kbd>ESC</kbd></label><div id="search-results" class="search-results" aria-live="polite"></div></dialog>
+  <dialog class="article-dialog" id="article-dialog" aria-label="লেখা পড়ুন"><div class="reading-progress" id="reading-progress"></div><div class="article-dialog-top"><a class="reading-brand" href="./">OnlyTech<span>.</span></a><span class="reading-top-label">একটু সময় নিয়ে পড়ুন</span><button class="icon-button" data-close-dialog type="button" aria-label="লেখা বন্ধ করুন"><svg class="icon"><use href="#i-close"/></svg></button></div><div id="article-content"></div></dialog>
+</body>
+</html>
